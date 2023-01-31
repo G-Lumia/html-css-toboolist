@@ -11,13 +11,15 @@ body{
 
 /* utility */
 
-/* X &#x2717; */
-/* spunta &#x2713; */
+/* classe creata per centrare l'elemento */
 
 .center{
     width:50%;
     margin: auto;
 }
+
+
+/* vari colori utilizzabili */
 
 .white{
     background-color:white;
@@ -26,12 +28,34 @@ body{
 .blue{
     background-color: #47acf0;
 }
+
+.purple{
+    background-color: #9b71e3;
+}
+
+.lightblue{
+    background-color: #64bfa8;
+}
+
+.orange{
+    background-color: #f19d31
+}
+
+.pink{
+    background-color: #d866a2
+}
+
+.lime{
+    background-color: #afc825;
+}
+
 /* header */
 
 header div{
     margin-left: 20px;
     height: 50px;
 }
+
 .nome-logo{
     display: inline-block;
     font-weight: bold;
@@ -50,6 +74,10 @@ header div{
     height: 30px;
 }
 
+.button-box{
+    padding: 20px 40px 20px;
+}
+
 .blue-cell{
     color:white;
     background-color: #47acf0;
@@ -66,18 +94,11 @@ header div{
 
 .container{
     width:1000px;
-    height: 500px;
 }
-
-main div div{
-    padding: 20px 50px 20px;
-}
-
 
 main div.container{
     margin-top: 20px;
     width:700px;
-    height: 800px;
     background-color: white;
 }
 
@@ -85,10 +106,10 @@ hr{
     opacity:0.4;
 }
 
+/* TASK */
+
 .done{
-    padding:0;
     margin-right:5px;
-    display:inline-block;
     width:15px;
     height: 15px;
     text-align: center;
@@ -99,15 +120,23 @@ hr{
     font-weight: bold;
 }
 
+.not-done{
+    margin-right:5px;
+    width:15px;
+    height: 15px;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 50%;
+    color:red;
+    font-size: 10px;
+    font-weight: bold;
+}
+
 .text{
-    padding:0;
-    display:inline-block;
     font-size: 15px;
 }
 
 .tag{
-    padding:0;
-    display:inline-block;
     border-radius: 25px;
     text-align: center;
     font-size:10px;
@@ -115,4 +144,14 @@ hr{
     color: white;
     width: 90px;
     height: 20px;
+}
+
+.activity{
+    padding: 20px 0px 20px 20px;
+}
+
+div.task div{
+    display:inline-block;
+    padding:0;
+    margin-top: 10px;
 }
