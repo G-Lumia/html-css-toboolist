@@ -5,14 +5,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #f6f8f9;
+}
+
+/* utility */
+
+.center{
+    width:50%;
+    margin: auto;
+}
+
+.white{
+    background-color:white;
+}
 
 /* header */
 
-.container{
-    margin-left:20px;
-}
-
-header div.container{
+header div{
+    margin-left: 20px;
     height: 50px;
 }
 .nome-logo{
@@ -24,3 +35,44 @@ header div.container{
 
 /* main */
 
+.container{
+    width:1000px;
+    height: 500px;
+}
+
+main div.container{
+    margin-top: 20px;
+    width:700px;
+    height: 800px;
+    background-color: white;
+}
+
+hr{
+    opacity:0.4;
+}
+
+/* button */
+
+.button-box{
+    padding: 20px 50px 20px;
+}
+
+.button{
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+}
+
+.blue-cell{
+    color:white;
+    background-color: #47acf0;
+    border:none;
+}
+
+.gray-cell{
+    background-color: white;
+    color:gray;
+    opacity: 0.6;
+}
