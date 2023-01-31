@@ -11,6 +11,9 @@ body{
 
 /* utility */
 
+/* X &#x2717; */
+/* spunta &#x2713; */
+
 .center{
     width:50%;
     margin: auto;
@@ -20,6 +23,9 @@ body{
     background-color:white;
 }
 
+.blue{
+    background-color: #47acf0;
+}
 /* header */
 
 header div{
@@ -33,29 +39,8 @@ header div{
     vertical-align:top;
 }
 
-/* main */
-
-.container{
-    width:1000px;
-    height: 500px;
-}
-
-main div.container{
-    margin-top: 20px;
-    width:700px;
-    height: 800px;
-    background-color: white;
-}
-
-hr{
-    opacity:0.4;
-}
-
 /* button */
 
-.button-box{
-    padding: 20px 50px 20px;
-}
 
 .button{
     border-radius: 5px;
@@ -75,4 +60,59 @@ hr{
     background-color: white;
     color:gray;
     opacity: 0.6;
+}
+
+/* main */
+
+.container{
+    width:1000px;
+    height: 500px;
+}
+
+main div div{
+    padding: 20px 50px 20px;
+}
+
+
+main div.container{
+    margin-top: 20px;
+    width:700px;
+    height: 800px;
+    background-color: white;
+}
+
+hr{
+    opacity:0.4;
+}
+
+.done{
+    padding:0;
+    margin-right:5px;
+    display:inline-block;
+    width:15px;
+    height: 15px;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 50%;
+    color:green;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.text{
+    padding:0;
+    display:inline-block;
+    font-size: 15px;
+}
+
+.tag{
+    padding:0;
+    display:inline-block;
+    border-radius: 25px;
+    text-align: center;
+    font-size:10px;
+    line-height: 20px;
+    color: white;
+    width: 90px;
+    height: 20px;
 }
